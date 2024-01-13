@@ -1,0 +1,64 @@
+/* header css */
+.header{
+  /* width: 100%; */
+  padding: 20px 5%;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+input
+{
+  width: 20%;
+  height: 30px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/* news article css */
+
+.News-Articles
+{
+  /* width: 1200px; */
+  padding: 30px 5%;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  column-gap: 5%;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.news
+{
+  width: 17%;
+  padding: 20px;
+  background-color: #f3e5e7;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  border-radius: 5px;
+}
+
+.news-img
+{
+  width: 100%;
+  height: 200px;
+  /* background-color: lightcyan; */
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-img img{
+  width: 100%;
+}
+
+.source{
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
